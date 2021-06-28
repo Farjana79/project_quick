@@ -1,0 +1,55 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* header */
+header{
+ background: #fff;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 10px 0;
+}
+/* logo */
+
+.logo {
+    width: 10%;
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+
+/* menu */
+.menu {
+    width: 50%;
+    float: right;
+}
+.menu ul {
+	list-style: none;
+	float: right;
+}
+.menu ul li {
+	float: left;
+}
+.menu ul li a {
+	text-decoration: none;
+	margin: 0 15px;
+	display: inline-block;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #0f2656;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+.menu ul li a:hover{
+    color: #008aff;
+}
+/* header */
+
+
